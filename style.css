@@ -1,0 +1,30 @@
+* {    margin: 0;    padding: 0;    box-sizing: border-box; }
+header{
+    background-color: black;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 7%;
+    width: fit-content;
+    height: fit-content;
+    color: rgb(68, 68, 133);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    margin: 1px;
+    padding: 10px;
+    border-radius: 7%;
+    width: fit-content;
+    height: fit-content;
+    background-color: brown;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button:hover{
+    background-color: rgb(251, 255, 0);
+}
+button::before{
+    content:"⌚";
+}
+button::after{
+    content:"🎆";
+}
