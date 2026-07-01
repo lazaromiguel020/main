@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        input {
+            padding: 8px;
+            width: 80px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 8px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #mensagem {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        #tentativas {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Jogo de Adivinhação</h1>
+
+    <p>
+        Tente descobrir o número secreto entre <strong>1 e 100</strong>.
+        Você possui <strong>10 tentativas</strong>.
+    </p>
+
+    <input type="number" id="palpite" min="1" max="100" placeholder="1-100">
+
+    <button id="btnChutar">Chutar</button>
+
+    <p id="mensagem"></p>
+
+    <p id="tentativas">Tentativas restantes: 10</p>
+
+    <script src="jogotest.js"></script>
+
+</body>
+</html>
